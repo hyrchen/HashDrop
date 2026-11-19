@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/sunnyhmz7010/HashDrop/main/frontend/public/favicon.svg" alt="HashDrop Logo" width="120" />
+  <img src="https://raw.githubusercontent.com/hyrchen/HashDrop/main/frontend/public/favicon.svg" alt="HashDrop Logo" width="120" />
   <h1>HashDrop</h1>
   <p>对接 HashPay 的匿名数字商品交付系统</p>
 </div>
@@ -11,8 +11,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/sunnyhmz7010/HashDrop/releases"><img src="https://img.shields.io/github/v/release/sunnyhmz7010/HashDrop?label=Release&amp;color=3b82f6" alt="Release" /></a>
-  <a href="https://github.com/sunnyhmz7010/HashDrop/blob/main/LICENSE"><img src="https://img.shields.io/github/license/sunnyhmz7010/HashDrop?color=10b981" alt="License" /></a>
+  <a href="https://github.com/hyrchen/HashDrop/releases"><img src="https://img.shields.io/github/v/release/hyrchen/HashDrop?label=Release&amp;color=3b82f6" alt="Release" /></a>
+  <a href="https://github.com/hyrchen/HashDrop/blob/main/LICENSE"><img src="https://img.shields.io/github/license/hyrchen/HashDrop?color=10b981" alt="License" /></a>
 </p>
 
 ---
@@ -61,7 +61,7 @@ docker run -d \
   --restart unless-stopped \
   -p 8080:8080 \
   -v hashdrop_data:/data \
-  ghcr.io/sunnyhmz7010/hashdrop:latest
+  ghcr.io/hyrchen/hashdrop:latest
 ```
 
 也可以使用 Docker Compose：根目录已提供 `compose.yaml`，执行以下命令即可启动：
@@ -214,7 +214,7 @@ HashDrop/
 ### ⚙️ 启动服务
 
 ```bash
-git clone https://github.com/sunnyhmz7010/HashDrop.git
+git clone https://github.com/hyrchen/HashDrop.git
 cd HashDrop
 npm ci --prefix frontend
 npm --prefix frontend run build
